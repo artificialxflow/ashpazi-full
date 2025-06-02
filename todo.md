@@ -4,7 +4,8 @@
 - Implement Sima Programs page based on Figma design
 - Use only HTML, CSS, JavaScript, and Bootstrap
 - All code must be in a single index.html file (no extra folders or files)
-- **The project must be in Persian (Farsi) and use RTL (right-to-left) direction. All text and layout must match the screenshot exactly.**
+- **The project must be in Persian (Farsi) and use RTL (right-to-left) direction.**
+- **The implementation must exactly match the screenshot.png file in design, layout, and content.**
 
 ## Figma Design Links
 - Main Design: https://www.figma.com/design/qeEASAicpzID1OtKDluU6k/proto1?node-id=16-511&t=Y65fZhAhI9N8kFub-4
@@ -13,7 +14,8 @@
 ## Project Structure
 ```
 sima-programs/
-└── index.html
+├── index.html
+├── screenshot.png
 ```
 
 ## Implementation Tasks
@@ -24,6 +26,7 @@ sima-programs/
 - [ ] Implement responsive layout
 - [ ] Style Sima Programs page
 - [ ] Add interactivity if needed
+- [ ] Ensure the design, layout, and content exactly match screenshot.png
 - [ ] Implement responsive design
 - [ ] Test cross-browser compatibility
 - [ ] Optimize for mobile devices
@@ -49,4 +52,4 @@ sima-programs/
 - Ensure proper validation if forms exist
 - Maintain consistent styling
 - Optimize for performance
-- **Match the screenshot and Figma design exactly, including text and layout direction** 
+- **The implementation must be pixel-perfect and match screenshot.png exactly in design, layout, and content.** 
