@@ -1,51 +1,57 @@
-# Bolt Automation Instructions
+# Ashpazi Sima Programs Page Project
 
-This file contains explicit step-by-step instructions for Bolt. When Bolt reads this file, it must follow these instructions in order to automate the Figma-to-code workflow for this repository.
+## Project Overview
+- Implement Sima Programs page based on Figma design
+- Use only HTML, CSS, JavaScript, and Bootstrap
+- All code must be in a single index.html file (no extra folders or files)
 
----
+## Figma Design Links
+- Main Design: https://www.figma.com/design/qeEASAicpzID1OtKDluU6k/proto1?node-id=16-511&t=Y65fZhAhI9N8kFub-4
+- Selection Link: https://www.figma.com/design/qeEASAicpzID1OtKDluU6k/proto1?node-id=16-511&t=Y65fZhAhI9N8kFub-0
 
-## Instructions for Bolt
+## Project Structure
+```
+sima-programs/
+└── index.html
+```
 
-1. **On Startup**
-   - Read this `todo.md` file for instructions before taking any action.
+## Implementation Tasks
+- [ ] Create a single index.html file
+- [ ] Add Bootstrap CDN link
+- [ ] Write all HTML, CSS (in <style>), and JS (in <script>) in index.html
+- [ ] Implement responsive layout
+- [ ] Style Sima Programs page
+- [ ] Add interactivity if needed
+- [ ] Implement responsive design
+- [ ] Test cross-browser compatibility
+- [ ] Optimize for mobile devices
+- [ ] Add loading states
+- [ ] Implement error handling
+- [ ] Add success/error messages
+- [ ] Test all functionality
+- [ ] Final review and cleanup
 
-2. **Repository Structure**
-   - For each folder in the repository (excluding system and config folders):
-     - Check if the folder contains:
-       - A text file with the Figma design link(s)
-       - A screenshot image of the page/component
-       - All required icons and images (PNG/SVG/JPG)
-     - If any required file is missing, prompt the user to provide it and pause processing for that folder until all assets are present.
+## Technical Requirements
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Bootstrap 5
+- No additional dependencies
+- Cross-browser compatible
+- Mobile responsive
 
-3. **Page Generation**
-   - For each folder with all required assets:
-     1. Read the Figma link from the text file.
-     2. Use the screenshot and all provided images/icons as reference.
-     3. Generate an `index.html` file in the same folder that:
-        - Implements the design as shown in the screenshot and Figma link.
-        - Uses Bootstrap for layout and styling.
-        - Uses provided CSS and images.
-        - Adds JavaScript if needed for interactivity.
-        - Ensures the implementation matches the Figma design as closely as possible.
-     4. If any additional information or asset is needed, prompt the user and wait for input before continuing.
+## Notes
+- Keep code clean and well-commented
+- Follow Bootstrap best practices
+- Ensure proper validation if forms exist
+- Maintain consistent styling
+- Optimize for performance
 
-4. **Repeat**
-   - Repeat the above steps for every folder representing a page or component.
 
-5. **Completion**
-   - When all folders have a completed `index.html` matching the Figma design, notify the user.
 
----
 
-## Checklist for Bolt
 
-- [ ] Read this file on startup
-- [ ] Process each folder as described
-- [ ] Prompt user for missing assets or information
-- [ ] Generate `index.html` using Bootstrap and provided assets
-- [ ] Ensure pixel-perfect match to Figma design
-- [ ] Notify user when all pages/components are complete
 
----
 
-**Bolt must follow these instructions exactly. Update this file if the workflow changes.** 
+
+
