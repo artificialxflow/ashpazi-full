@@ -4,6 +4,7 @@
 - Implement Sima Programs page based on Figma design
 - Use only HTML, CSS, JavaScript, and Bootstrap
 - All code must be in a single index.html file (no extra folders or files)
+- **The project must be in Persian (Farsi) and use RTL (right-to-left) direction. All text and layout must match the screenshot exactly.**
 
 ## Figma Design Links
 - Main Design: https://www.figma.com/design/qeEASAicpzID1OtKDluU6k/proto1?node-id=16-511&t=Y65fZhAhI9N8kFub-4
@@ -19,6 +20,7 @@ sima-programs/
 - [ ] Create a single index.html file
 - [ ] Add Bootstrap CDN link
 - [ ] Write all HTML, CSS (in <style>), and JS (in <script>) in index.html
+- [ ] Set the HTML document language to fa and direction to rtl
 - [ ] Implement responsive layout
 - [ ] Style Sima Programs page
 - [ ] Add interactivity if needed
@@ -39,6 +41,7 @@ sima-programs/
 - No additional dependencies
 - Cross-browser compatible
 - Mobile responsive
+- **All content must be in Persian and RTL**
 
 ## Notes
 - Keep code clean and well-commented
@@ -46,12 +49,4 @@ sima-programs/
 - Ensure proper validation if forms exist
 - Maintain consistent styling
 - Optimize for performance
-
-
-
-
-
-
-
-
-
+- **Match the screenshot and Figma design exactly, including text and layout direction** 
